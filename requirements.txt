@@ -6,9 +6,6 @@ pandas>=2.2.0
 plotly==5.24.1
 streamlit==1.28.0
 neo4j==5.15.0
-anthropic==0.8.1
-pandas>=2.2.0
-plotly==5.17.0
 python-dotenv==1.0.00
 
 # For Claude/OpenAI integration (if used)
