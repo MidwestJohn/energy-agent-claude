@@ -275,8 +275,8 @@ tokens.txt
 neo4j/
 graph.db/
 
-# Streamlit specific
-.streamlit/
+# Allow Streamlit config files, but ignore actual secrets
+.streamlit/secrets.toml.streamlit/
 
 # Jupyter notebook checkpoints
 .ipynb_checkpoints/

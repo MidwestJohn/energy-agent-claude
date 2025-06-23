@@ -1,0 +1,35 @@
+# Streamlit Cloud Production Configuration
+# This file is auto-generated for cloud deployment
+
+[server]
+headless = true
+port = 8501
+enableCORS = false
+enableXsrfProtection = false
+address = "0.0.0.0"
+maxUploadSize = 200
+maxMessageSize = 200
+cookieSecret = "${COOKIE_SECRET}"
+
+[theme]
+base = "light"
+primaryColor = "#FF6B6B"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F7F7F7"
+textColor = "#222222"
+font = "sans serif"
+
+[browser]
+gatherUsageStats = false
+serverAddress = "auto"
+
+[client]
+showErrorDetails = true
+
+[performance]
+maxCachedMessageAge = 3600
+maxCachedPages = 20
+
+[runner]
+fastReruns = true
+magicEnabled = false 
