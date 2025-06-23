@@ -1,11 +1,11 @@
 # Streamlit Cloud requirements for Energy Grid Management Agent
-streamlit==1.35.0
-pandas==2.2.2
-plotly==5.22.0
-neo4j==5.19.0
-python-dotenv==1.0.1
-requests==2.32.3
-PyYAML==6.0.1
+streamlit==1.28.0
+neo4j==5.15.0
+anthropic==0.8.1
+pandas==2.1.4
+plotly==5.17.0
+python-dotenv==1.0.0
+
 # For Claude/OpenAI integration (if used)
 openai==1.30.5
 # For logging and performance
